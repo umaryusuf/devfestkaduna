@@ -480,7 +480,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 #intro {
   width: 100%;
   height: 100vh;
-  background: url(../img/intro-bg.jpg) top center;
+  background: url(../img/assets.jpeg) top center;
   background-size: cover;
   overflow: hidden;
   position: relative;
@@ -1020,11 +1020,11 @@ body.mobile-nav-active #mobile-nav-toggle {
   list-style: none;
 }
 
-#faq #faq-list li {
+#faq #faq-list li.main {
   border-bottom: 1px solid #ddd;
 }
 
-#faq #faq-list a {
+#faq #faq-list a.open {
   padding: 18px 0;
   display: block;
   position: relative;
@@ -1063,7 +1063,6 @@ body.mobile-nav-active #mobile-nav-toggle {
 --------------------------------------------------------------*/
 
 #footer {
-  background: #101522;
   color: #101522;
   font-size: 14px;
 }
